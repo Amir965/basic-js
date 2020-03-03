@@ -36,6 +36,9 @@
 // var n=5;
 // for(i=0;i<n;i++)
 // {
+//     if(i===2 || i===3){
+//         continue;
+//     }
 //     console.log(i);
 
 // }
@@ -51,9 +54,41 @@
 //   }
 //   while (i <=10);
 //Function
-function add(a,b){
-    var c=a+b;
-    return c;
+// function add(){
+// console.log("hi");
 
+// }
+// add();
+//scope of varible 
+// var name="khan";
+// function first(){
+//     var a=" raquib ";
+//     second();
+//     var x=a + name;
+//     console.log(x);
+    
+// }
+// function second(){
+//     var b=" suban ";
+//     third();
+//     var y=b + name;
+//     console.log(y);
+    
+// }
+// function third(){
+//     var c=" yahiya ";
+//     var z=c + name;
+//     console.log(z);
+    
+// }
+// first();
+
+
+//Array
+var Array=["amir","raquib","sauban","ihtisham","rasik",4,6,7];
+function assign(){
+  for(i=0;i<Array.length;i++)
+  console.log(Array[i]+ " ");
+  
 }
-console.log(add(4,3));
+assign();
